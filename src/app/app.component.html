@@ -1,12 +1,15 @@
 <div id="content-wrapper" [mnFullpage]="options">
+  <div itemscope itemtype="http://schema.org/LocalBusiness">
 
   <div class="section welcome-section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="logo-image">
-        <img src="../assets/bydicle_logo_black.png">
+        <img itemprop="logo" src="../assets/bydicle_logo_black.png">
       </div>
       <a href="http://www.jegvilbestilletid.dk/bydicle"><button>Bestil tid</button></a>
       <a href="tel:+4586191916"><button>86 19 19 16</button></a>
+
+
     </div>
   </div>
 
@@ -18,7 +21,28 @@
 
   <div class="section contact-section fp-section fp-table">
     <div class="fp-tableCell">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2221.9447441911307!2d10.19467031601688!3d56.15805998066363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3feb60f1eef1%3A0x8053b13a3222cd5b!2sBy+Dicle+Topcu!5e0!3m2!1sen!2sdk!4v1511456984915" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <meta itemprop="description" content="Frisør, Makeup-Artist og Stylist">
+        <link itemprop="url" href="https://bydicle.dk" rel="author"/>
+        <span itemprop="name"><strong>byDicle</strong></span> |
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span itemprop="streetAddress">Vesterbrogade 12</span> |
+          <span itemprop="postalCode">8000</span>
+          <span>
+            <span itemprop="addressLocality">Aarhus C</span>  |
+          </span>
+          <span itemprop="addressCountry" style="display: none">Denmark</span>
+        </span>
+          <span itemprop="telephone">+45 86 19 19 16</span>
+
+        <div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2221.9447441911307!2d10.19467031601688!3d56.15805998066363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3feb60f1eef1%3A0x8053b13a3222cd5b!2sBy+Dicle+Topcu!5e0!3m2!1sen!2sdk!4v1511456984915" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+        <time itemprop="openingHours" datetime="Tu-Th 09:30-17:30">Tirsdag-Torsdag 09:30-17:30</time> |
+        <time itemprop="openingHours" datetime="Fr 09:30-19:00">Fredag 09:30-19:00</time> |
+        <time itemprop="openingHours" datetime="Sa 09:30-12:00">Lørdag 09:30-12:00</time>
+
+      </div>
     </div>
   </div>
 </div>
