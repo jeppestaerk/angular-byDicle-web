@@ -1,0 +1,75 @@
+@import "~fullpage.js/dist/jquery.fullpage.css";
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+
+body {
+  font-family: 'Titillium Web', Arial sans-serif;
+  color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  color: #444;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+#fp-nav {
+  top: 50% !important;
+}
+
+.section {
+  text-align: center;
+}
+
+.section pre {
+  margin-top: 5px;
+  text-align: start;
+}
+
+button {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 15px;
+  padding: 10px 40px;
+  border: solid #a592cb 1px;
+  text-decoration: none;
+  font-size: 1em;
+  text-align: center;
+  cursor: pointer;
+  color: #333333;
+  background: #a592cb;
+}
+
+button:hover {
+  color: black;
+  text-decoration: none;
+  background: transparent;
+
+}
+
+.welcome-section {
+  background: #fee8d0 url('../assets/dicle.png') no-repeat right top;
+  background-size: contain;
+}
+
+.welcome-section .logo-image {
+  margin: 25px;
+}
+
+.price-section {
+  background: url('../assets/page2.png') no-repeat left top;
+  background-size: cover;
+}
+
+.contact-section {
+  background: #fee8d0;
+  //background: url('../assets/page3.png') no-repeat left bottom;
+  background-size: cover;
+}
